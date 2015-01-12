@@ -1,0 +1,24 @@
+main : com.josroossien.arvote.ARVote
+name: ARVote
+version: 0.1
+description: Voting reward plugin.
+depend: [CWCore]
+commands:
+  arvote:
+    description: Main ARVote command.
+    usage: /<command>
+  vote:
+    description: Voting information.
+    usage: /<command>
+  reward:
+    description: Give a specific reward.
+    usage: /<command> <player> <reward>
+  randomreward:
+    description: Give one random reward.
+    usage: /<command> <player> <group>
+  rewards:
+    description: Give a group of rewards based on percentages.
+    usage: /<command> <player> <group>
+  randomreward:
+    description: Give a random reward.
+    usage: /<command> <player> <group>
